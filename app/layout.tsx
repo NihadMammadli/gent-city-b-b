@@ -3,6 +3,7 @@ import { Urbanist } from 'next/font/google';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { Motion } from '@/components/Motion';
+import { ScrollToTop } from '@/components/ScrollToTop';
 import { getContent, resolveHref } from '@/content';
 import { absoluteUrl } from '@/lib/paths';
 import { plain } from '@/lib/text';
@@ -43,7 +44,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const book = resolveHref(site, '@booking');
 
   return (
-    <html lang={site.meta.language} className={urbanist.variable} suppressHydrationWarning>
+    /* data-scroll-behavior: the smooth scrolling in globals.css is for jumps
+       within a page; Next.js turns it off while it changes pages */
+    <html lang={site.meta.language} className={urbanist.variable} data-scroll-behavior="smooth" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: MOTION_SCRIPT }} />
       </head>
@@ -66,6 +69,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         />
         <main id="main">{children}</main>
         <Footer site={site} />
+        {/* after <main>, so it runs once the new page is in place */}
+        <ScrollToTop />
         <Motion />
       </body>
     </html>
