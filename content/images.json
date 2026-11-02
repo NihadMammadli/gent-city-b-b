@@ -1,0 +1,406 @@
+{
+  "hydrangeas-headboard": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.4,
+      0.5
+    ],
+    "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQBACdASoYABAAPu1kqU2ppaOiMAgBMB2JYwC7ABhz/sqa3IefXRhJgAD+VGnLu7K55D0ffJ0JsuuR62/ZxG+RHaZzeWun9jsMpOEXyQ1TWgF/I5uI6ZIIxrDJkzZa7JXG58cZp2IQ4WjAE6oq+5x89G7oAA=="
+  },
+  "alcove-bedroom": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "width": 2400,
+    "height": 1600,
+    "focus": [
+      0.35,
+      0.6
+    ],
+    "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOgBEHRHLgyDzmM/8OIvnwAAP7mGNyv7O+poMEWtZni7PS3WPeccURMzY6258fRUgJfJyCYxWUjFVJ7IZ0M6lI6P1vS55UYKZ10P4uHhxdYH8IsLaUC7yYZVYVHMcYIXe658SiHZ8m3VAjen0Mg2Z1v0BAO7HikPA/19DsSWBb5QFnIgAAA",
+    "og": true
+  },
+  "basin-tap": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blur": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACQAwCdASoYABAAPu1kq04ppaQiMAgBMB2JZQC+SBiZPfpCu+5AAP7rkwdkBVnfqJXM7p1eiNY1GWWEUzqOu95Bl/GPyTqlKOVBVb8+TAMcUF/ckwA7atd2PIjwAA=="
+  },
+  "wine-bedside": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.35,
+      0.55
+    ],
+    "blur": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBUesXcUYqmDWT+VAxfDVeoAAPyjuG1RViLCtchF8m53qH65wfMW5wJe7mz9CRBDidmu9aryuEPBXCMsq6ig2Uhu8vYJgLwLSdH3WBzKLqpfIs2qDZ8VzFq3ypSr9zGBHqVEftMrEJ4qG7YSV8jv2NHjfPgA"
+  },
+  "suite-living": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "width": 2400,
+    "height": 1600,
+    "focus": [
+      0.55,
+      0.6
+    ],
+    "blur": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAABwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZQC7INBgthF8CgCynBuOSXbP+AD11MvMSK4kr727dQRiKkkE/tSq5hww3wxYTVlIgbPgkdT24GUAj8+MEFE7QDuHxMVPNOq1IKVn3v3qgUmJNPWQyLIAUtscbl3Y/UIfkH4VeddYjnX8e9P/C6Fg9aOavJKTUe/DUwesL9w7fXaWw0c6sHD7pgov+e3HQuK3GjvIN/i1oi6b0DRIHgAA",
+    "og": true
+  },
+  "suite-sofa-bed": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "width": 2400,
+    "height": 1600,
+    "focus": [
+      0.5,
+      0.55
+    ],
+    "blur": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAADQAwCdASoYABAAPu1kqU2ppaOiMAgBMB2JZQC7ABPcZdB/ISKmH4AA+mDkngv4HAJDh0aCKqGMdNzWt/2JaTlivrfb2VW3UqVN8MKo1VlrFiNfAa+Fmn4bAbvjU43L49eM8Okr/c6BxDPpFvAm0uICpfwfHWghAKn3xHZXazrk9vdtWwHxNiCEq2fVx86boSpGqI/zaIVdMQ4Z8CdQB4Hff7dwJUYAAAA=",
+    "og": true
+  },
+  "bath-mixer-dark-tiles": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.45,
+      0.5
+    ],
+    "blur": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAADwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JZwAAXK+HoviukiBH0N/AAP7o0lgouxLWTDXbrRWWdDWOEWTkpd4enfSbjDFhxyK17uLEwynKTHcTRFP5mOuPV5IWESrQP/nXyf+ddYAAAA=="
+  },
+  "suite-dining-table": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "width": 2400,
+    "height": 1600,
+    "focus": [
+      0.45,
+      0.55
+    ],
+    "blur": "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYwCdABazMxw1zYw+TJuqV2AAAP4rPut8vyATtODLrGlXvOJXypVlorwj1uSokEqJF6mpfZENQVXQjh5ei9lnNkFGCwaats2yAguPfWY+Y3DL870c316Etx20Q0FAXaa117reOldHyDmaM3xxP6nIIn1Vh790fSxKWmzmxgWkvFV5Jha1Ls/gAAA=",
+    "og": true
+  },
+  "navy-wall-bedroom": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.45,
+      0.55
+    ],
+    "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAADQAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQAAL1t1qv5GvAzRO7kAA/PIYz3UxqzTB8CxJvcju/ASAs8E+opTXZVOurwrO+gwyjGYGLQyvldccFIcd6cV8FW/FSSIP7NnKCvl0/1rIE+9pf7CTu4kWrXukzg6XL7rA382EybsxRFzC0fo1XEfhEMKaLKWI3l4GpXBLYAA="
+  },
+  "hydrangeas-bedside": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.35,
+      0.55
+    ],
+    "blur": "data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBZwMZUSgmx72RPKfZAWGTgAAP63zPnqbXNW4kmMMnpTiiyvHhgD2ZvEyCN+m+Vq+TRZHrMjDXtxXsbpcbKLPt2KAAYQVjyR784wmmyPl3/t+xKeAVvx9+lmHZOEzZqMNp5bPz79rN/YkV8gLnh2WKdNtsjszHW3oCmr7AVVIN2AAAA="
+  },
+  "suite-open-plan": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "width": 2400,
+    "height": 1600,
+    "focus": [
+      0.55,
+      0.55
+    ],
+    "blur": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZwC+SYx2owUuto6GS0VvyigA/Dv6IIjRHUHnyrdhIztiXcz2lgSQR9vGi4Xh8ccG9b37hy6bunI7owiZ8Y33XbUGSQCME2qQj5UEo9keiI7U+AIAXfrFerPuDTfXPaB+VXv96uI7TSOovWj11qSO8CBsu98TXh293y0J1nOT0+cFSmyj5c+eFo1NIpaVNLL3gAAA",
+    "og": true
+  },
+  "coffee-corner": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.6,
+      0.55
+    ],
+    "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBACdASoYABAAPu1qrU8ppiQiMAgBMB2JQBlAA3RFpgwskEfNjCwztQAA/jqecNdFCCrLXreUhskJ9E9CSLNpzMXodZ0J7D7mqGC77L6YINKjM07r9y/78iY+NjuvnoNgmtuLAl90Lrs2kRrNICM0sloq898QblqLQAAA"
+  },
+  "hydrangeas-closeup": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.35,
+      0.5
+    ],
+    "blur": "data:image/webp;base64,UklGRqIAAABXRUJQVlA4IJYAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZACdACGVnbJH+ZqDdgnl94AA/uFSJc91JEHX5IHeSwZMqCJy9X/FPY0vHrq1GNZCq0b9BvShLALtKNw/2O/5rdlKU39mW0Lw7OpAk84VKg8gpEUlo/0OF1cTFolQyvcs4F3ke5KdEaCimdCXW9lyxn8wmvnNUhi14VBzRAA="
+  },
+  "bed-wine-closeup": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "width": 2400,
+    "height": 1600,
+    "focus": [
+      0.5,
+      0.55
+    ],
+    "blur": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAAAwBACdASoYABAAPu1mqk4ppaOiMAgBMB2JYgCdAYyUfsJL31Rta09TrUAA+KLt6s/6PRKxjX49MLZY6jZPeJ6OjwAIXGdUSgtmIsVyoKhYHPPR+D0u4+OZ7eyO4J4XWbBqzgqrqSD3rsbZSWAL9zy1Ze5yJh5/or5k26K72a1BM3c2lmqDSoKOLVnV6gVqgrun7JAkP3mIVbWL94FhOY9P6Ph5HJ5I8AA=",
+    "og": true
+  },
+  "bedroom-from-table": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.55,
+      0.5
+    ],
+    "blur": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAAAwBACdASoYABAAPu1iqU2ppaOiMAgBMB2JbACdMoABq/62MC2T10dpCAAA+hzOePpP0zrgPrxk4yTNq8S3kdD6mGEu1i4g7n9de9sE0Krc479cwUvFGxj1U38X7JZ3TZQem3OHw0rBnO5+ZRxEa6aSoFMAB1ECpkhElcIZC8c7qcXqwLOhgaUd4Tch/cd/nCCAAA=="
+  },
+  "bedroom-wall-lights": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      2400
+    ],
+    "width": 2400,
+    "height": 1600,
+    "focus": [
+      0.5,
+      0.55
+    ],
+    "blur": "data:image/webp;base64,UklGRqwAAABXRUJQVlA4IKAAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JYgCdMoACtUHOuCCCdxdfkTAAAP7f4DqatySv7tPE7SSRT2LbeuzgI/4ZFygcJJAgrN9yeYCLM6RJn9iFwLK8RrlqRBx4zTu7A9gKvFguinZIstS/WCNNCc3tQn8s86nKjHr0fIQoNoSAH7qf1OF2NCh79oooseL6XS2RkE0ih25HJOe8QwAA",
+    "og": true
+  },
+  "bedside-wine-cushions": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.45,
+      0.5
+    ],
+    "blur": "data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAADQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JQBOkFTwZQtzdfEVtQGyt0E6q4sp+AAD+rQ8xHgYJVYvqugqs3faqxYG9+SF1hTMjPqfJnmk6Vq/1DHrDfR93odCUCLwdAOLvXz4aJxadpe97eW03Uc5vwy6qzuMix0H1VOMphPtRQLb2Lry1GN09CRpN9L+ttDEuSzKIF+NTqR6O3vuNPEkkuyQQYDkV5lei6XAwSx2GkAAA"
+  },
+  "towels-toiletries": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABQBACdASoYABAAPu1iqU2ppaOiMAgBMB2JZwDGfB50syjP/yT/tBJ47BQAAP6e6WcDx38g6vVU9JGyD/TdC4MZfuQZLrCuHzei+Izi97YUmXn3yRMM9U5sGp7C57uSfziI+FOOTzWgW6Y8L+Wb3tfydmoAAA=="
+  },
+  "walk-in-shower": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.3,
+      0.5
+    ],
+    "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQAwCdASoYABAAPu1iqU2ppaQiMAgBMB2JYwAAL/PZCa3u4naAAPe1gUZDqvmewe6DNnk4zv3J28fddRViw7ZOIv3BkqNl56PEEFBFbmcSJ3TgdwQAAA=="
+  },
+  "vanity-backlit-mirror": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.5,
+      0.55
+    ],
+    "blur": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwBACdASoYABAAPu1kqU2ppaQiMAgBMB2JYwCdACHu1H81emNwOW2KAgAA/ua/Ad3npu+3iwlnKbqdIxV5WVEGiMMUZAs2jBSxov2bxqxt3QDFsxHH21QSW21M3st+kuonoJgSEXsHpIs+XYrmIJiVNaIkUW2iaAA="
+  },
+  "basin-toiletries": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "blur": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAACwAwCdASoYABAAPu1kqk2ppaQiMAgBMB2JZwAAW8Z5K/Wn/anTUAD+UeRVWPK3ux+Xsz0iESBCTEhEzpC6cG4nhfTotsecUwqtpMk4sIRLpeP+L7u9vupfgAA="
+  },
+  "vanity-grey-tiles": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.5,
+      0.55
+    ],
+    "blur": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAQBACdASoYABAAPu1iqk2ppaQiMAgBMB2JYwCnFBhyz5Ocxes3+uG1AAD+6iHPozOBZ1l1JPlR32qLHfm0q8nsM6403aoGYKQllbG6JAlLvoVFQLdc7WqOOy6/1eTY5TNNJqWknuZcQpSGVaVo5FOTDPcP2bI9L+xuIAAA"
+  },
+  "bathtub-headrest": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.5,
+      0.6
+    ],
+    "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAwBACdASoYABAAPu1iqk2ppaQiMAgBMB2JYwCw7BjP62xfF7SIMBnTMRwA/Z+fQ+V35v8sOw0Rg5TBML0VosblcnYqU/cGmSjXNAobx8bcKm9p5A1GnutVLFKPSMz0ab5PuNMUTYEIFNSCLM3ItkJLFbXIAA=="
+  },
+  "bath-hand-shower": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.5,
+      0.55
+    ],
+    "blur": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABQBACdASoYABAAPu1oqk6ppiQiMAgBMB2JYwC7ACHgTQGySyg2RsKXKIZAAP7O0sPsuiv1G3EVBkpdHliZ8XMm+dlxfJtug11qN9xDSFRzJZvOAgDfuPq6wXr7raDsLMT5vBNfidhXo0VfY1PGmKdV7gAAAA=="
+  },
+  "bath-dark-stone": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.5,
+      0.55
+    ],
+    "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoYABAAPu1mqk4ppaOiMAgBMB2JZQC+SCHfRDCaL6RbAAD+698QhBAp0LqD0qKw94m3gXdrSj0FmAhm6+I0L56Hv1w8rEGCT1Spe0iuLRjYAA=="
+  },
+  "bathtub-towel-rail": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "width": 1600,
+    "height": 1067,
+    "focus": [
+      0.4,
+      0.6
+    ],
+    "blur": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAACQAwCdASoYABAAPu1Ct1apoqakGAEwHYllAMKAE7iV62c24DiAAP4UnXVmcbEAEBdOwmUmn4mrxa2DzcT8Fe8REZWKEY2g5GKoL/Q5Bab3MYs1gvEr8A5TZKaATjZECb9pR9CSJJXgfXBJ52YAAA=="
+  }
+}
