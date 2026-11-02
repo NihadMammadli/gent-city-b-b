@@ -272,12 +272,5 @@ html.motion [data-reveal].is-in {
   html.motion [data-reveal] { transition-delay: calc(var(--i, 0) * 50ms); }
 }
 
-@keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(50px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
+/* Keyframes belong in the CSS module that uses them: CSS Modules rename
+   animation names, so one defined here would never match a module's. */

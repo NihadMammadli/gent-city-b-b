@@ -33,7 +33,7 @@ export function Hero({ site, hero, size = 'page', breadcrumbs, next }: Props) {
         {image?.kind === 'local' && (
           <div className={styles.blur} style={{ backgroundImage: `url(${image.blur})` }} aria-hidden="true" />
         )}
-        {image && <Picture photo={image} sizes="100vw" priority className={styles.image} />}
+        {image && <Picture photo={image} sizes="100vw" priority fade className={styles.image} />}
         <div className={styles.overlay} aria-hidden="true" />
       </div>
 

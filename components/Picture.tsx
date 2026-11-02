@@ -11,6 +11,8 @@ type Props = {
   priority?: boolean;
   /** Paint the tiny blurred version underneath while the file arrives. */
   placeholder?: boolean;
+  /** Fade in once loaded (see Motion.tsx); the component's CSS hides it until then. */
+  fade?: boolean;
 };
 
 /**
@@ -19,7 +21,7 @@ type Props = {
  * from scripts/images.config.mjs decides what a cropping frame keeps.
  * A remote photo (from an API) is drawn as given.
  */
-export function Picture({ photo, sizes, className, priority, placeholder }: Props) {
+export function Picture({ photo, sizes, className, priority, placeholder, fade }: Props) {
   const loading = priority ? 'eager' : 'lazy';
   const fetchPriority = priority ? 'high' : 'auto';
 
@@ -35,6 +37,7 @@ export function Picture({ photo, sizes, className, priority, placeholder }: Prop
         fetchPriority={fetchPriority}
         decoding="async"
         style={{ objectPosition: photo.position }}
+        data-fade={fade || undefined}
       />
     );
   }
@@ -61,6 +64,7 @@ export function Picture({ photo, sizes, className, priority, placeholder }: Prop
       fetchPriority={fetchPriority}
       decoding={priority ? 'sync' : 'async'}
       style={style}
+      data-fade={fade || undefined}
     />
   );
 }

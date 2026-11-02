@@ -33,7 +33,14 @@
   transform: scale(1.08);
 }
 
-.image { object-fit: cover; }
+/* the photo fades in over its placeholder once it has loaded (Motion.tsx
+   marks it); hidden only while motion is on, like everything else */
+.image {
+  object-fit: cover;
+  transition: opacity 600ms ease, filter 600ms ease;
+}
+
+:global(html.motion) .image:not(:global(.is-loaded)) { opacity: 0; }
 
 .overlay {
   position: absolute;
@@ -79,19 +86,33 @@
   transform: translateX(-50%);
 }
 
-/* the damla-group entrance: title, line and buttons rise one after another */
+/* the damla-group entrance: the hero fades in, then the title, the line and
+   the buttons rise one after another; the scroll cue keeps bouncing.
+   Keyframes live in this file: CSS Modules rename animation names, so a
+   name defined in globals.css would never match. */
 @media (prefers-reduced-motion: no-preference) {
-  .crumbs, .eyebrow { animation: fadeIn 1s ease-out both; }
+  .hero { animation: fadeIn 1.2s ease-out; }
+  .crumbs, .eyebrow { animation: fadeInUp 0.8s ease-out 0.1s both; }
   .title { animation: fadeInUp 0.8s ease-out 0.2s both; }
   .subtitle { animation: fadeInUp 0.8s ease-out 0.4s both; }
   .actions { animation: fadeInUp 0.8s ease-out 0.6s both; }
-  .cue { animation: bounce 2s ease-in-out infinite; }
+  .cue { animation: bounce 2s infinite; }
   .wheel { animation: wheel 2s ease-in-out infinite; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes bounce {
   0%, 100% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-50%) translateY(-18px); }
+  50% { transform: translateX(-50%) translateY(-25px); }
 }
 
 @keyframes wheel {

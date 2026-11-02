@@ -103,6 +103,16 @@
   .cell:last-child:nth-child(even) { grid-column: span 2; }
 }
 
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 @media (max-width: 600px) {
   .grid { gap: 10px; }
   .mosaic { grid-auto-rows: 38vw; }
