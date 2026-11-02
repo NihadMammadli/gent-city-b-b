@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "language": "en",
+    "locale": "en_GB",
+    "titleTemplate": "%s · Gent City B&B",
+    "themeColor": "#0F1729",
+    "keywords": [
+      "Gent City B&B",
+      "B&B Ghent",
+      "bed and breakfast Ghent",
+      "boutique B&B Gent",
+      "Ghent city centre accommodation",
+      "family room Ghent",
+      "Notarisstraat Gent"
+    ]
+  },
+
+  "brand": {
+    "name": "Gent City B&B",
+    "shortName": "Gent City",
+    "tagline": "Boutique bed & breakfast in the heart of Ghent",
+    "description": "Boutique B&B in Ghent's historic centre with renovated rooms, fireplaces, private bathrooms and free WiFi — rated 9.4 by Booking.com guests."
+  },
+
+  "property": {
+    "schemaType": "BedAndBreakfast",
+    "address": {
+      "street": "Notarisstraat 31",
+      "district": "Binnenstad",
+      "postalCode": "9000",
+      "city": "Ghent",
+      "region": "East Flanders",
+      "country": "Belgium",
+      "countryCode": "BE"
+    },
+    "geo": { "lat": 51.0503245, "lng": 3.7303309 },
+    "checkIn": { "from": "14:00", "to": "23:00" },
+    "checkOut": { "from": "07:00", "to": "11:00" },
+    "languages": [
+      { "code": "en", "name": "English" },
+      { "code": "fr", "name": "French" },
+      { "code": "nl", "name": "Dutch" },
+      { "code": "ru", "name": "Russian" }
+    ],
+    "petsAllowed": false,
+    "smokingAllowed": false
+  },
+
+  "contact": {
+    "phone": "",
+    "email": "",
+    "whatsapp": "",
+    "bookingUrl": "https://www.booking.com/hotel/be/gent-city-b-amp-b.en-gb.html",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Notarisstraat+31%2C+9000+Gent%2C+Belgium"
+  },
+
+  "hosts": {
+    "names": "Olha & Jam",
+    "score": 9.3,
+    "about": "We are Olha & Jam, and together with our team we love welcoming travellers from Belgium and around the world to our city. For us, hosting is about much more than providing a room: we want you to feel comfortable, relaxed and genuinely welcome from the moment you arrive.\n\nWe are always happy to share our favourite streets, restaurants and cafés — the places visitors might otherwise miss — while giving you the privacy to discover Ghent at your own pace. Whether you stay one night or a whole week, we hope our B&B becomes your little home in Ghent."
+  },
+
+  "rating": {
+    "score": 9.4,
+    "outOf": 10,
+    "label": "Superb",
+    "count": 77,
+    "source": "Booking.com",
+    "sourceUrl": "https://www.booking.com/hotel/be/gent-city-b-amp-b.en-gb.html#tab-reviews",
+    "categories": [
+      { "key": "location", "label": "Location", "score": 9.8 },
+      { "key": "cleanliness", "label": "Cleanliness", "score": 9.7 },
+      { "key": "comfort", "label": "Comfort", "score": 9.7 },
+      { "key": "staff", "label": "Staff", "score": 9.7 },
+      { "key": "facilities", "label": "Facilities", "score": 9.6 },
+      { "key": "value", "label": "Value for money", "score": 9.5 },
+      { "key": "wifi", "label": "Free WiFi", "score": 9.0 }
+    ]
+  },
+
+  "manager": {
+    "label": "Managed by",
+    "name": "Damla Group",
+    "url": "https://damla-group.com/"
+  },
+
+  "nav": [
+    { "label": "Home", "href": "/", "icon": "home" },
+    { "label": "Rooms", "href": "/rooms/", "icon": "bed" },
+    { "label": "Gallery", "href": "/gallery/", "icon": "image" },
+    { "label": "Location", "href": "/location/", "icon": "pin" },
+    { "label": "Good to Know", "href": "/good-to-know/", "icon": "info" }
+  ],
+
+  "footer": {
+    "ctaTitle": "Ready to Discover Ghent?",
+    "ctaText": "Two renovated rooms in the historic centre, a 9.8 location score and hosts who love their city. We would be delighted to welcome you.",
+    "exploreTitle": "Explore",
+    "stayTitle": "Your Stay",
+    "contactTitle": "Find Us",
+    "copyright": "© {year} Gent City B&B. All rights reserved."
+  },
+
+  "ui": {
+    "book": "Book your stay",
+    "bookShort": "Book now",
+    "bookOn": "Book on Booking.com",
+    "viewRoom": "View room",
+    "size": "Size",
+    "sizeValue": "{n} m²",
+    "guests": "Guests",
+    "guestsValue": "Up to {n}",
+    "beds": "Beds",
+    "view": "View",
+    "roomPhotos": "Inside the {room}",
+    "roomFacilities": "In the Room",
+    "roomBookTitle": "Stay in the {room}",
+    "roomBookText": "See availability and prices for your dates on Booking.com.",
+    "otherRooms": "You May Also Like",
+    "reviewScore": "{score}/10",
+    "ratingSummary": "{label} · {score} from {count} reviews",
+    "hostScore": "Host review score {score}",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "checkInValue": "{from} – {to}",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "languages": "We speak",
+    "previous": "Previous",
+    "next": "Next",
+    "close": "Close",
+    "openPhoto": "Open photo {n} of {total}: {alt}",
+    "photoCount": "{n} / {total}",
+    "galleryFilter": "Filter photos",
+    "skip": "Skip to main content",
+    "navLabel": "Main navigation",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "home": "Home",
+    "breadcrumb": "Breadcrumb",
+    "scrollDown": "Scroll to the next section",
+    "reviewsLabel": "Guest reviews",
+    "reviewPage": "Show review {n}",
+    "newTab": "(opens in a new tab)"
+  },
+
+  "amenities": [
+    { "icon": "wifi", "title": "Free WiFi", "text": "Fast, free WiFi throughout — rated 9.0 by our guests." },
+    { "icon": "fireplace", "title": "A Fireplace in Every Room", "text": "A warm focal point for a winter evening in Ghent." },
+    { "icon": "coffee", "title": "Coffee & Tea Corner", "text": "Coffee machine, electric kettle and a selection of teas." },
+    { "icon": "bath", "title": "Private Bathroom", "text": "Bath or shower, free toiletries, slippers and a hairdryer." },
+    { "icon": "soundproof", "title": "Soundproofed Rooms", "text": "Quiet walls for a restful night in the city centre." },
+    { "icon": "sofa", "title": "Space to Unwind", "text": "Seating area, dining table, desk and a flat-screen TV." },
+    { "icon": "family", "title": "Family Rooms", "text": "The Deluxe Family Suite sleeps up to four guests." },
+    { "icon": "gift", "title": "Little Extras", "text": "Chocolates for every guest, plus an iron, a drying rack and a wardrobe." }
+  ],
+
+  "photos": [
+    { "id": "suite-living", "category": "living", "alt": "Living area of the Deluxe Family Suite: a round dining table with red and black chairs, a cream sofa, a TV and a marble fireplace beneath tall windows" },
+    { "id": "suite-open-plan", "category": "living", "alt": "Open-plan suite with a dining table, corner sofa and wall-mounted TV under tall street-facing windows" },
+    { "id": "suite-sofa-bed", "category": "living", "alt": "Cream corner sofa bed with a grey throw in front of the double bed in the Deluxe Family Suite" },
+    { "id": "suite-dining-table", "category": "living", "alt": "Red hydrangeas on the dining table, with the sofa and marble fireplace behind" },
+    { "id": "bedroom-wall-lights", "category": "bedroom", "alt": "Double bed with a cream buttoned headboard, wall lights and red hydrangeas against a dark brown wall" },
+    { "id": "navy-wall-bedroom", "category": "bedroom", "alt": "Double bed with a cream buttoned headboard and blue cushions against a deep navy wall" },
+    { "id": "alcove-bedroom", "category": "bedroom", "alt": "Double bed set in a dark brown arched alcove, with open shelving and tall windows dressed in taupe curtains" },
+    { "id": "bedroom-from-table", "category": "bedroom", "alt": "The bedroom seen past red hydrangeas on the dining table" },
+    { "id": "hydrangeas-bedside", "category": "bedroom", "alt": "Red hydrangeas on the bedside table beside a cream buttoned headboard" },
+    { "id": "bed-wine-closeup", "category": "bedroom", "alt": "Freshly made bed with taupe cushions, and a bottle of white wine with two glasses on the side" },
+    { "id": "hydrangeas-headboard", "category": "details", "alt": "A vase of red hydrangeas on a dark bedside table next to a cream buttoned headboard" },
+    { "id": "hydrangeas-closeup", "category": "details", "alt": "Close-up of red hydrangeas beside the headboard and taupe cushions" },
+    { "id": "wine-bedside", "category": "details", "alt": "A bottle of white wine and two glasses on the bedside table" },
+    { "id": "bedside-wine-cushions", "category": "details", "alt": "White wine and glasses on the bedside table beside blue velvet cushions" },
+    { "id": "coffee-corner", "category": "details", "alt": "Kettle, coffee machine and a selection of teas in the room's coffee corner" },
+    { "id": "towels-toiletries", "category": "details", "alt": "Folded white towels and boxed spa toiletries on a stone shelf" },
+    { "id": "walk-in-shower", "category": "bathroom", "alt": "Walk-in rain shower with a glass screen and grey stone tiles" },
+    { "id": "vanity-backlit-mirror", "category": "bathroom", "alt": "Wide white vanity unit with a backlit mirror in a grey stone bathroom" },
+    { "id": "vanity-grey-tiles", "category": "bathroom", "alt": "White vanity unit and backlit mirror between grey tiled walls" },
+    { "id": "basin-tap", "category": "bathroom", "alt": "Chrome waterfall tap and a ribbed glass on a white basin, with spa toiletries" },
+    { "id": "basin-toiletries", "category": "bathroom", "alt": "Glass, chrome tap and boxed toiletries along a white basin" },
+    { "id": "bathtub-headrest", "category": "bathroom", "alt": "Bathtub with a headrest and folded towel beneath a stone-tiled wall" },
+    { "id": "bath-hand-shower", "category": "bathroom", "alt": "Bathtub with a hand shower and chrome controls against dark stone tiles" },
+    { "id": "bath-dark-stone", "category": "bathroom", "alt": "Built-in bathtub with a hand shower set into dark stone tiles" },
+    { "id": "bath-mixer-dark-tiles", "category": "bathroom", "alt": "Chrome thermostatic bath mixer on dark slate tiles" },
+    { "id": "bathtub-towel-rail", "category": "bathroom", "alt": "Bathtub with a headrest beside a heated towel rail hung with white towels" }
+  ],
+
+  "rooms": [
+    {
+      "slug": "double-room",
+      "name": "Double Room",
+      "tag": "For two",
+      "summary": "A calm 20 m² retreat with a large double bed, its own fireplace and city views — made for couples exploring Ghent.",
+      "description": "Our Double Room pairs a large double bed and a buttoned cream headboard with soft reading lights and its own fireplace. Tall windows look out over the city, and soundproofed walls keep the evenings quiet.\n\nThe private bathroom has a walk-in shower, free toiletries, slippers and a hairdryer. A coffee machine, electric kettle, dining table and desk let you start — or plan — the day at your own pace, and there are chocolates waiting for you.",
+      "sizeM2": 20,
+      "maxGuests": 2,
+      "beds": "1 large double bed",
+      "view": "City view",
+      "highlights": [
+        { "icon": "fireplace", "label": "Fireplace" },
+        { "icon": "view", "label": "City view" },
+        { "icon": "shower", "label": "Walk-in shower" },
+        { "icon": "coffee", "label": "Coffee machine" }
+      ],
+      "facilities": [
+        { "title": "Bathroom", "items": ["Private bathroom", "Shower", "Free toiletries", "Slippers", "Hairdryer", "Towels"] },
+        { "title": "Comfort", "items": ["Fireplace", "Heating", "Fan", "Soundproofing", "Tiled floor", "Linen", "Wardrobe", "Clothes rack"] },
+        { "title": "Food & Drink", "items": ["Coffee machine", "Tea & coffee maker", "Electric kettle", "Dining table", "Chocolates for guests"] },
+        { "title": "Work & Leisure", "items": ["Desk", "Seating area", "Flat-screen TV", "City view", "Free WiFi"] },
+        { "title": "Practical", "items": ["Iron & ironing facilities", "Drying rack", "Cleaning products", "Hand sanitiser", "Carbon monoxide detector"] }
+      ],
+      "cover": "bedroom-wall-lights",
+      "photos": [
+        "bedroom-wall-lights",
+        "navy-wall-bedroom",
+        "bed-wine-closeup",
+        "bedside-wine-cushions",
+        "hydrangeas-headboard",
+        "wine-bedside",
+        "hydrangeas-closeup",
+        "coffee-corner",
+        "walk-in-shower",
+        "vanity-backlit-mirror",
+        "vanity-grey-tiles",
+        "basin-tap",
+        "basin-toiletries",
+        "towels-toiletries"
+      ],
+      "bookingUrl": "",
+      "seo": {
+        "title": "Double Room with Fireplace in Central Ghent",
+        "description": "A 20 m² Double Room in Ghent's historic centre: large double bed, fireplace, city views, walk-in shower, coffee machine and free WiFi at Gent City B&B.",
+        "image": "bedroom-wall-lights"
+      }
+    },
+    {
+      "slug": "deluxe-family-suite",
+      "name": "Deluxe Family Suite",
+      "tag": "For up to four",
+      "summary": "A spacious 30 m² suite with a double bed, a sofa bed, a dining area and a fireplace — room for the whole family.",
+      "description": "Our largest room is a light-filled 30 m² suite under high ceilings and tall windows. A double bed with a buttoned headboard sits beside a lounge with a cream corner sofa bed, a round dining table and a marble fireplace — space for families or friends travelling together.\n\nThe private bathroom has a bathtub with a hand shower, free toiletries, slippers and a hairdryer. A coffee machine, kettle and teas, a flat-screen TV and soundproofed walls make it easy to settle in, and there are chocolates waiting for every guest.",
+      "sizeM2": 30,
+      "maxGuests": 4,
+      "beds": "1 double bed and 1 sofa bed",
+      "view": "",
+      "highlights": [
+        { "icon": "family", "label": "Sleeps 4" },
+        { "icon": "fireplace", "label": "Fireplace" },
+        { "icon": "bath", "label": "Bathtub" },
+        { "icon": "sofa", "label": "Sofa bed" }
+      ],
+      "facilities": [
+        { "title": "Bathroom", "items": ["Private bathroom", "Bath or shower", "Free toiletries", "Slippers", "Hairdryer", "Towels"] },
+        { "title": "Comfort", "items": ["Fireplace", "Sofa bed", "Heating", "Fan", "Soundproofing", "Tiled floor", "Linen", "Wardrobe", "Clothes rack"] },
+        { "title": "Food & Drink", "items": ["Coffee machine", "Tea & coffee maker", "Electric kettle", "Dining table", "Chocolates for guests"] },
+        { "title": "Work & Leisure", "items": ["Desk", "Seating area", "Flat-screen TV", "Free WiFi"] },
+        { "title": "Practical", "items": ["Iron & ironing facilities", "Drying rack", "Cleaning products", "Hand sanitiser", "Carbon monoxide detector"] }
+      ],
+      "cover": "suite-open-plan",
+      "photos": [
+        "suite-open-plan",
+        "suite-living",
+        "suite-sofa-bed",
+        "suite-dining-table",
+        "bedroom-from-table",
+        "hydrangeas-bedside",
+        "hydrangeas-headboard",
+        "navy-wall-bedroom",
+        "hydrangeas-closeup",
+        "wine-bedside",
+        "coffee-corner",
+        "towels-toiletries",
+        "bathtub-headrest",
+        "bath-hand-shower",
+        "bath-dark-stone",
+        "bath-mixer-dark-tiles",
+        "bathtub-towel-rail",
+        "vanity-backlit-mirror",
+        "vanity-grey-tiles",
+        "basin-tap",
+        "basin-toiletries"
+      ],
+      "bookingUrl": "",
+      "seo": {
+        "title": "Deluxe Family Suite for Four in Central Ghent",
+        "description": "A 30 m² family suite in Ghent's historic centre: double bed and sofa bed for up to four, dining area, fireplace, bathtub and free WiFi at Gent City B&B.",
+        "image": "suite-open-plan"
+      }
+    }
+  ],
+
+  "reviews": [
+    {
+      "name": "Beth",
+      "country": "United Kingdom",
+      "score": 10,
+      "title": "We had a wonderful time in Ghent and the accommodation was faultless.",
+      "text": "The location was excellent, within walking distance of everything. The rooms were amazing and so clean. The shower was lovely. There was a coffee machine in the rooms. We could not fault this property.",
+      "travellerType": "Family"
+    },
+    {
+      "name": "Elisabeth",
+      "country": "France",
+      "score": 9,
+      "title": "Perfect place to explore the beautiful city of Ghent",
+      "text": "Very clean and brand new, central location. Bed was so comfortable and bed linen was of very good quality. Fantastic bath for two. Olha who greeted us was very helpful and nice. Thank you.",
+      "travellerType": "Couple"
+    },
+    {
+      "name": "Farzana",
+      "country": "South Africa",
+      "score": 10,
+      "title": "Fantastic, unbeatable value",
+      "text": "Fantastic location, 15 mins to St Baafs. Newly renovated. Comfortable bed, great shower. Friendly host. Sweets, fruit and chocolates were a special touch.",
+      "travellerType": "Solo traveller"
+    },
+    {
+      "name": "Angela",
+      "country": "Netherlands",
+      "score": 9,
+      "title": "Amazing stay!",
+      "text": "Very pretty and clean. Excellent location for visiting the old city center just by less than 10 mins walk. The host is also very friendly and welcoming. Would like to return if I visit Ghent again!",
+      "travellerType": "Solo traveller"
+    },
+    {
+      "name": "Karen",
+      "country": "United States",
+      "score": 8,
+      "title": "Great location and great room!",
+      "text": "The room was spacious and very clean, tall ceilings, modern bathroom. Very responsive to questions on WhatsApp.",
+      "travellerType": "Solo traveller"
+    },
+    {
+      "name": "Farida",
+      "country": "Belgium",
+      "score": 10,
+      "title": "Luxury room — amazing location",
+      "text": "Location is amazing and room was very beautiful, brand new and extremely convenient. Great price–quality ratio!",
+      "travellerType": "Solo traveller"
+    },
+    {
+      "name": "Sofia",
+      "country": "Italy",
+      "score": 9,
+      "title": "",
+      "text": "The room was very comfortable and clean and the staff was welcoming and ready to meet our requests.",
+      "travellerType": "Solo traveller"
+    }
+  ],
+
+  "places": [
+    { "name": "Castle of Gerald the Devil", "distance": "300 m", "note": "A 3-minute walk", "group": "sights", "icon": "castle" },
+    { "name": "Historic city centre", "distance": "< 10 min walk", "note": "Graslei, Korenlei and the old town", "group": "sights", "icon": "walk" },
+    { "name": "Toreken", "distance": "< 1 km", "note": "Medieval tower on the Vrijdagmarkt", "group": "sights", "icon": "landmark" },
+    { "name": "Muinkpark", "distance": "1.1 km", "note": "City park", "group": "sights", "icon": "tree" },
+    { "name": "Parking Reep", "distance": "130 m", "note": "Seminariestraat 9 — the nearest public car park", "group": "travel", "icon": "parking" },
+    { "name": "Interparking Gent Zuid", "distance": "350 m", "note": "Public car park", "group": "travel", "icon": "parking" },
+    { "name": "Gent-Sint-Pieters station", "distance": "3.7 km", "note": "Ghent's main railway station", "group": "travel", "icon": "train" },
+    { "name": "Antwerp International Airport", "distance": "60 km", "note": "", "group": "travel", "icon": "plane" }
+  ],
+
+  "rules": [
+    { "icon": "checkin", "title": "Check-in", "text": "From 14:00 to 23:00." },
+    { "icon": "checkout", "title": "Check-out", "text": "From 07:00 to 11:00." },
+    { "icon": "calendar", "title": "Cancellation & Prepayment", "text": "Conditions depend on the rate you choose; you will see them before you book." },
+    { "icon": "child", "title": "Children", "text": "Children of any age are welcome. Guests aged 18 and over are charged as adults." },
+    { "icon": "bed", "title": "Cots & Extra Beds", "text": "Cots and extra beds are not available." },
+    { "icon": "user", "title": "Age Restriction", "text": "There is no minimum age for check-in." },
+    { "icon": "pet", "title": "Pets", "text": "Pets are not allowed." },
+    { "icon": "nosmoking", "title": "Smoking", "text": "Smoking is not allowed." },
+    { "icon": "party", "title": "Parties", "text": "Parties and events are not allowed, including hen and stag parties." },
+    { "icon": "moon", "title": "Quiet Hours", "text": "Please keep noise down between 22:00 and 07:00." },
+    { "icon": "stairs", "title": "Stairs", "text": "The rooms are reached by stairs, so the B&B is not suitable for guests with reduced mobility." }
+  ],
+
+  "faq": [
+    {
+      "question": "What time are check-in and check-out?",
+      "answer": "Check-in is from 14:00 to 23:00, and check-out from 07:00 to 11:00."
+    },
+    {
+      "question": "Is there parking near the B&B?",
+      "answer": "The B&B has no private parking. The nearest public car park, Parking Reep (Seminariestraat 9), is about 130 metres away, and Interparking Gent Zuid is around 350 metres away."
+    },
+    {
+      "question": "Can we leave our luggage before check-in or after check-out?",
+      "answer": "Yes. You are always welcome to store your luggage at the property before check-in and after check-out."
+    },
+    {
+      "question": "How far is the historic centre?",
+      "answer": "The old town is less than ten minutes away on foot, and the Castle of Gerald the Devil is a three-minute walk from our door."
+    },
+    {
+      "question": "Can you provide an extra pillow or blanket for the sofa bed?",
+      "answer": "Of course. Let us know and we will prepare an extra pillow and blanket for the sofa bed in the Deluxe Family Suite."
+    },
+    {
+      "question": "Are children welcome?",
+      "answer": "Children of any age are welcome. Guests aged 18 and over are charged as adults, and cots and extra beds are not available."
+    },
+    {
+      "question": "Are pets allowed?",
+      "answer": "Unfortunately, pets are not allowed at the B&B."
+    },
+    {
+      "question": "Which languages do you speak?",
+      "answer": "We are happy to help in English, French, Dutch and Russian."
+    }
+  ],
+
+  "pages": {
+    "home": {
+      "seo": {
+        "title": "Gent City B&B — Boutique Bed & Breakfast in Central Ghent",
+        "description": "Boutique B&B in Ghent's historic centre: renovated rooms with fireplaces, private bathrooms and free WiFi, rated 9.4 by Booking.com guests.",
+        "image": "suite-living"
+      },
+      "hero": {
+        "eyebrow": "Notarisstraat 31 · Historic centre of Ghent",
+        "title": "Boutique B&B in the Heart of Ghent",
+        "subtitle": "Renovated rooms with fireplaces and high ceilings, a short walk from the canals and the old town.",
+        "image": "suite-living",
+        "primary": { "label": "Book your stay", "href": "@booking" },
+        "secondary": { "label": "Explore the rooms", "href": "/rooms/" }
+      },
+      "welcome": {
+        "title": "Welcome to *Gent City B&B*",
+        "body": "Welcome to our charming B&B in the heart of Ghent, where comfort, character and a fantastic city-centre location come together. Set on Notarisstraat, we offer a peaceful place to stay within walking distance of Ghent's historic centre, its canals, cafés, restaurants and landmarks.\n\nOur rooms combine a warm, welcoming atmosphere with modern comfort and thoughtful details — the personal feeling of a boutique B&B with the professionalism you expect from a quality city stay.",
+        "signature": "Olha & Jam, your hosts",
+        "image": "navy-wall-bedroom",
+        "cta": { "label": "Discover the rooms", "href": "/rooms/" }
+      },
+      "rating": {
+        "title": "Loved by Our Guests. *Rated {label}.*",
+        "subtitle": "Scores from {count} verified guest reviews on {source}.",
+        "stats": [
+          { "metric": "score", "label": "Guest rating", "icon": "star" },
+          { "metric": "location", "label": "Location", "icon": "pin" },
+          { "metric": "cleanliness", "label": "Cleanliness", "icon": "sparkle" },
+          { "metric": "count", "label": "Verified reviews", "icon": "heart" }
+        ]
+      },
+      "rooms": {
+        "title": "Our Rooms",
+        "subtitle": "Two renovated rooms under tall ceilings, each with a fireplace and a private bathroom — one for two, one for the whole family.",
+        "cta": { "label": "Compare the rooms", "href": "/rooms/" }
+      },
+      "amenities": {
+        "title": "Thoughtful Comforts in *Every Room*",
+        "subtitle": "Everything for an easy city stay, from the first coffee of the morning to a quiet night's sleep."
+      },
+      "gallery": {
+        "title": "Take a Look Inside",
+        "subtitle": "High ceilings, tall windows and warm, soft tones — see the rooms before you arrive.",
+        "photos": ["hydrangeas-headboard", "suite-dining-table", "bedside-wine-cushions", "coffee-corner", "bathtub-headrest", "walk-in-shower"],
+        "cta": { "label": "View all photos", "href": "/gallery/" }
+      },
+      "location": {
+        "title": "In the Heart of *Historic Ghent*",
+        "body": "Notarisstraat sits in the Binnenstad, Ghent's historic centre — rated 9.8 for location by our guests. The Castle of Gerald the Devil is a three-minute walk away, and the old town with its canals and cafés is easily reached on foot.",
+        "image": "alcove-bedroom",
+        "places": ["Castle of Gerald the Devil", "Historic city centre", "Parking Reep", "Gent-Sint-Pieters station"],
+        "cta": { "label": "Explore the area", "href": "/location/" }
+      },
+      "hosts": {
+        "title": "Meet Your Hosts",
+        "subtitle": ""
+      },
+      "reviews": {
+        "title": "What Our Guests Say",
+        "subtitle": "Verified reviews from guests who stayed with us, via {source}."
+      },
+      "faq": {
+        "title": "Good to Know",
+        "subtitle": "Quick answers to the questions our guests ask most.",
+        "count": 4,
+        "cta": { "label": "House rules & all questions", "href": "/good-to-know/" }
+      }
+    },
+
+    "rooms": {
+      "seo": {
+        "title": "Rooms & Suites in Central Ghent",
+        "description": "Choose between our 20 m² Double Room and 30 m² Deluxe Family Suite — both with a fireplace, private bathroom, coffee machine and free WiFi in Ghent's historic centre.",
+        "image": "suite-sofa-bed"
+      },
+      "hero": {
+        "eyebrow": "Rooms & suites",
+        "title": "Rooms Made for Slow Mornings",
+        "subtitle": "Tall ceilings, soft linen and a fireplace in every room.",
+        "image": "suite-sofa-bed",
+        "primary": { "label": "Book your stay", "href": "@booking" }
+      },
+      "intro": {
+        "title": "Find *Your Room*",
+        "subtitle": "Both rooms are newly renovated and share the same thoughtful comforts — the difference is how much space you need."
+      },
+      "includes": {
+        "title": "Every Room Includes",
+        "subtitle": "The essentials for a comfortable stay, and a few thoughtful extras."
+      }
+    },
+
+    "gallery": {
+      "seo": {
+        "title": "Photo Gallery",
+        "description": "Photos of Gent City B&B in Ghent: the Double Room, the Deluxe Family Suite, the bathrooms and the little details that make a city stay feel like home.",
+        "image": "suite-dining-table"
+      },
+      "hero": {
+        "eyebrow": "Gallery",
+        "title": "A Look Inside Gent City B&B",
+        "subtitle": "The rooms, the bathrooms and the little details — before you arrive.",
+        "image": "suite-dining-table"
+      },
+      "intro": {
+        "title": "Every Corner, *Up Close*",
+        "subtitle": "Filter by space, and select any photo to see it full screen."
+      },
+      "allLabel": "All photos",
+      "categories": [
+        { "id": "bedroom", "label": "Bedrooms" },
+        { "id": "living", "label": "Living & Dining" },
+        { "id": "bathroom", "label": "Bathrooms" },
+        { "id": "details", "label": "Details" }
+      ]
+    },
+
+    "location": {
+      "seo": {
+        "title": "Location — Notarisstraat in Historic Ghent",
+        "description": "Gent City B&B is at Notarisstraat 31 in Ghent's Binnenstad, a 3-minute walk from the Castle of Gerald the Devil, with public parking 130 m away.",
+        "image": "suite-open-plan"
+      },
+      "hero": {
+        "eyebrow": "Location",
+        "title": "Ghent Is on Your Doorstep",
+        "subtitle": "Notarisstraat 31, in the historic Binnenstad.",
+        "image": "suite-open-plan"
+      },
+      "intro": {
+        "title": "Stay in the *Binnenstad*",
+        "body": "Our B&B is on Notarisstraat in central Ghent, an easy walk from the historic centre, the canals and the city's best-known sights: the Graslei and Korenlei, the Castle of the Counts, St Bavo's Cathedral and the Belfry.\n\nRestaurants, cafés, bakeries, shops and bars are all close by, so you can leave the car behind. Spend the morning among the monuments, have lunch on a terrace, take a canal cruise in the afternoon and finish with an evening walk through the illuminated old town.",
+        "image": "alcove-bedroom"
+      },
+      "places": {
+        "title": "What's Nearby",
+        "subtitle": "Distances from the B&B, from our Booking.com listing and our guests.",
+        "groups": [
+          { "id": "sights", "title": "Sights & Parks" },
+          { "id": "travel", "title": "Getting Here" }
+        ]
+      },
+      "map": {
+        "title": "Find Us",
+        "subtitle": "Arriving by car? Parking Reep is about 130 metres from our door.",
+        "button": "Show the map",
+        "note": "The map loads from OpenStreetMap when you press the button.",
+        "open": "Open in Google Maps"
+      }
+    },
+
+    "info": {
+      "seo": {
+        "title": "House Rules & FAQ",
+        "description": "Check-in 14:00–23:00, check-out until 11:00, public parking 130 m away and luggage storage: everything to know before your stay at Gent City B&B.",
+        "image": "bed-wine-closeup"
+      },
+      "hero": {
+        "eyebrow": "Good to know",
+        "title": "Before You Arrive",
+        "subtitle": "House rules, practical details and answers to common questions.",
+        "image": "bed-wine-closeup"
+      },
+      "rules": {
+        "title": "House Rules",
+        "subtitle": "A few simple rules so every guest enjoys a peaceful stay."
+      },
+      "faq": {
+        "title": "Frequently Asked *Questions*",
+        "subtitle": "Can't find your answer? Send us a message when you book — we are happy to help."
+      },
+      "languages": {
+        "title": "We Speak Your Language",
+        "subtitle": "Your hosts are happy to help in"
+      }
+    },
+
+    "notFound": {
+      "seo": {
+        "title": "Page Not Found",
+        "description": "The page you were looking for does not exist at Gent City B&B.",
+        "image": ""
+      },
+      "title": "This Page Has Checked Out",
+      "text": "The page you were looking for does not exist or has moved. Let's get you back to the B&B.",
+      "cta": { "label": "Back to the home page", "href": "/" }
+    }
+  }
+}
