@@ -1,0 +1,171 @@
+.header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 1000;
+  height: var(--header-h);
+  background: var(--slate);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  height: 100%;
+  padding-inline: clamp(20px, 6vw, 96px);
+}
+
+.home { display: inline-flex; }
+
+.nav { display: flex; align-items: center; gap: 28px; }
+
+.links { display: flex; align-items: center; gap: 28px; }
+
+.link {
+  position: relative;
+  display: inline-block;
+  padding: 8px 4px;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* the bronze rule grows out from the middle */
+.link::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  right: 4px;
+  bottom: 0;
+  height: 2px;
+  background: var(--bronze);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.link:hover { opacity: 1; transform: translateY(-2px); }
+.link:hover::after,
+.link[aria-current='page']::after { transform: scaleX(1); }
+.link[aria-current='page'] { opacity: 1; }
+
+.book { padding: 14px 18px; font-size: 15px; letter-spacing: 0.012em; }
+
+.burger {
+  display: none;
+  padding: 6px;
+  color: var(--white);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.burger:hover { transform: scale(1.1); opacity: 0.8; }
+
+.scrim,
+.drawer { display: none; }
+
+@media (max-width: 1080px) {
+  .nav, .links { gap: 16px; }
+  .link { font-size: 15px; }
+  .book { padding: 12px 14px; font-size: 14px; }
+}
+
+/* ---------------------------------------------------------- the drawer */
+
+@media (max-width: 900px) {
+  .bar { padding-inline: 20px; }
+  .nav { display: none; }
+  .burger { display: block; }
+
+  .scrim {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 1001;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+  }
+
+  .scrim[data-open='true'] { opacity: 1; visibility: visible; transition-delay: 0s; }
+
+  .drawer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1002;
+    width: min(95%, 400px);
+    height: 100dvh;
+    background: var(--bg-cream);
+    overflow-y: auto;
+    transform: translateX(100%);
+    visibility: hidden;
+    transition: transform 0.3s ease, visibility 0s linear 0.3s;
+  }
+
+  .drawer[data-open='true'] { transform: translateX(0); visibility: visible; transition-delay: 0s; }
+
+  .drawerHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px;
+    background: var(--slate);
+  }
+
+  .close { padding: 6px; color: var(--white); transition: transform 0.3s ease, opacity 0.3s ease; }
+  .close:hover { transform: rotate(90deg); opacity: 0.7; }
+
+  .drawerNav { display: flex; flex-direction: column; padding: 24px 0; flex: 1; }
+
+  .drawerLink {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 24px;
+    color: var(--slate);
+    font-size: 16px;
+    font-weight: 500;
+    border-left: 3px solid transparent;
+    transition: background 0.2s ease, border-color 0.2s ease;
+  }
+
+  .drawerLink:hover { background: rgba(156, 109, 54, 0.1); border-left-color: var(--bronze); }
+
+  .drawerLink[aria-current='page'] {
+    background: rgba(156, 109, 54, 0.15);
+    border-left-color: var(--bronze);
+    color: var(--bronze);
+  }
+
+  .drawerFoot {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 6px;
+    padding: 24px 20px 32px;
+    border-top: 1px solid rgba(52, 61, 82, 0.1);
+    text-align: center;
+  }
+
+  .drawerFoot .book { margin-bottom: 20px; padding: 14px 18px; font-size: 15px; }
+
+  .drawerBrand {
+    color: var(--bronze);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .drawerTagline { color: var(--slate); font-size: 13px; }
+}
+
+@media (max-width: 900px) and (prefers-reduced-motion: reduce) {
+  .drawer, .scrim { transition: none; }
+}
