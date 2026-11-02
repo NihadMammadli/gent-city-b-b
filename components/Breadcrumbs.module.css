@@ -1,0 +1,15 @@
+.crumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--on-dark-2);
+}
+
+.crumbs li { display: inline-flex; align-items: center; gap: 6px; }
+.crumbs a { transition: color 0.3s ease; }
+.crumbs a:hover { color: var(--gold); }
+.crumbs [aria-current] { color: var(--white); }
+.sep { transform: rotate(-90deg); opacity: 0.6; }
