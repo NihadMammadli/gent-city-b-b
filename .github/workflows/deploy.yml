@@ -1,0 +1,84 @@
+# Builds the static export and publishes it to GitHub Pages.
+#
+#   push to main         typecheck, check the content, build, deploy
+#   pull request         the same checks and build, without deploying
+#   workflow_dispatch    deploy again by hand: gh workflow run deploy.yml
+#   repository_dispatch  a content API's webhook can publish new content:
+#                        POST /repos/<owner>/<repo>/dispatches
+#                        {"event_type": "content-updated"}
+#
+# The base path and origin come from the Pages settings, so the same workflow
+# keeps working if the site moves to a custom domain. Set the repository
+# variable CONTENT_API_URL (and the secret CONTENT_API_TOKEN) to build from
+# the API instead of content/site.json.
+
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [content-updated]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# never let two deploys race; a newer run waits for the current one
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Read the Pages settings
+        id: pages
+        uses: actions/configure-pages@v6
+
+      - name: Install
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Check the content and build the static export
+        run: npm run build
+        env:
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          NEXT_PUBLIC_SITE_URL: ${{ steps.pages.outputs.origin }}
+          CONTENT_API_URL: ${{ vars.CONTENT_API_URL }}
+          CONTENT_API_TOKEN: ${{ secrets.CONTENT_API_TOKEN }}
+
+      - name: Fail if the home page does not name its real address
+        run: |
+          want="${{ steps.pages.outputs.base_url }}/"
+          grep -q "rel=\"canonical\" href=\"${want}\"" out/index.html \
+            || { echo "::error::out/index.html does not carry the canonical ${want}"; exit 1; }
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: out
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v5
