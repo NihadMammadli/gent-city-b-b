@@ -1,0 +1,35 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--white);
+}
+
+.mark {
+  width: 34px;
+  height: 38px;
+  flex: none;
+  color: var(--gold);
+}
+
+.text { display: flex; flex-direction: column; gap: 2px; }
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.tagline {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--on-dark-2);
+}
+
+@media (max-width: 768px) {
+  .mark { width: 28px; height: 32px; }
+  .name { font-size: 18px; }
+}

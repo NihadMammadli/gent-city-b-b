@@ -1,0 +1,283 @@
+/* =========================================================================
+   Gent City B&B — the Damla Group design system
+   Urbanist throughout, deep navy ink, bronze for actions, gold for the fine
+   detail (rings, frames, rules), and warm cream fields between white ones.
+   ========================================================================= */
+
+:root {
+  /* colour ------------------------------------------------------------- */
+  --navy: #0f1729;
+  --slate: #343d52;
+  --bronze: #9c6d36;
+  --bronze-hover: #b87d3f;
+  --bronze-light: #bd8543;
+  --gold: #d4af37;
+  --white: #fff;
+  --bg-light: #f5f3f0;
+  --bg-cream: #e8e0d5;
+  --bg-hover: #ece0cf;
+  --text: #0f1729;
+  --text-2: #4a5565;
+  --text-3: #6b7280;
+  --on-dark: rgba(255, 255, 255, 0.9);
+  --on-dark-2: rgba(255, 255, 255, 0.7);
+  --border: rgba(15, 23, 41, 0.24);
+  --hairline: #e5e7eb;
+
+  /* type --------------------------------------------------------------- */
+  --font: var(--font-urbanist), 'Urbanist', system-ui, sans-serif;
+  --fs-title-l: clamp(36px, 8vw, 72px);
+  --fs-title-m: clamp(32px, 5vw, 51px);
+  --fs-lead: clamp(16px, 2.2vw, 25px);
+  --fs-subtitle: clamp(16px, 2vw, 19px);
+  --fs-body: clamp(15px, 1.5vw, 17px);
+
+  /* space -------------------------------------------------------------- */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+  --gutter: clamp(20px, 6vw, 96px);
+  --section-y: clamp(64px, 10vw, 112px);
+  --content: 1200px;
+  --header-h: 80px;
+
+  /* shape -------------------------------------------------------------- */
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (max-width: 768px) {
+  :root { --header-h: 64px; }
+}
+
+/* ================================== base ================================== */
+
+*,
+*::before,
+*::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + 16px);
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+body {
+  font-family: var(--font);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+main { display: block; overflow-x: clip; }
+img, svg, video { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+ul, ol { list-style: none; }
+h1, h2, h3, h4 { font-weight: 400; text-wrap: balance; }
+p { text-wrap: pretty; }
+
+::selection { background: var(--bronze); color: var(--white); }
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 2000;
+  padding: 10px 20px;
+  background: var(--bronze);
+  color: var(--white);
+  font-weight: 600;
+}
+
+.skip:focus { left: 10px; top: 10px; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ============================== typography =============================== */
+
+.title-l {
+  font-size: var(--fs-title-l);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+.title-m {
+  font-size: var(--fs-title-m);
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--text);
+}
+
+.subtitle {
+  font-size: var(--fs-subtitle);
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.body {
+  font-size: var(--fs-body);
+  line-height: 1.6;
+  color: var(--text-2);
+  letter-spacing: 0.0015em;
+}
+
+.body p + p { margin-top: 1em; }
+
+.eyebrow {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--bronze);
+}
+
+/* the words between *stars* in a heading */
+.accent { color: var(--bronze); }
+
+/* ================================ buttons ================================ */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 32px;
+  border-radius: var(--radius-sm);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn svg { width: 18px; height: 18px; flex: none; }
+
+.btn-primary { background: var(--bronze); color: var(--white); border: 2px solid transparent; }
+
+.btn-primary:hover {
+  background: var(--bronze-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(156, 109, 54, 0.3);
+}
+
+.btn-light { border: 2px solid var(--white); color: var(--white); }
+.btn-light:hover { background: rgba(255, 255, 255, 0.1); transform: translateY(-2px); }
+
+.btn-outline { background: var(--white); color: var(--navy); border: 1px solid var(--navy); }
+.btn-outline:hover { background: var(--bg-hover); }
+
+.btn-row { display: flex; flex-wrap: wrap; gap: var(--space-md); align-items: center; }
+
+@media (max-width: 768px) {
+  .btn-row--stack { flex-direction: column; align-items: stretch; width: 100%; }
+  .btn-row--stack .btn { width: 100%; }
+}
+
+/* the arrow link under a card */
+.link-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--bronze);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  transition: gap 0.3s ease, opacity 0.3s ease;
+}
+
+.link-arrow svg { width: 16px; height: 16px; }
+.link-arrow:hover { gap: 12px; }
+
+/* ================================ fields ================================= */
+
+.tone-white { background: var(--white); }
+.tone-light { background: var(--bg-light); }
+.tone-cream { background: var(--bg-cream); }
+.tone-navy { background: var(--navy); color: var(--white); }
+
+/* the gold rule between parts of a section */
+.divider {
+  height: 2px;
+  width: 100%;
+  border: 0;
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.2) 0%, var(--gold) 48.56%, rgba(212, 175, 55, 0.2) 100%);
+}
+
+/* ================================= motion =================================
+   The page renders finished. The inline script in <head> adds `motion` to
+   <html> only when the visitor has not asked for reduced motion, and that
+   class is the only thing that hides anything before it animates in. It
+   removes itself after three seconds if the JavaScript never arrives, so no
+   visitor is ever left with an empty page. Do not hide content anywhere else.
+   ========================================================================== */
+
+html.motion [data-reveal] {
+  opacity: 0;
+  transition:
+    opacity 0.8s ease-out,
+    transform 0.8s var(--ease);
+  transition-delay: calc(var(--i, 0) * 100ms);
+  will-change: opacity, transform;
+}
+
+html.motion [data-reveal='up'] { transform: translateY(50px); }
+html.motion [data-reveal='left'] { transform: translateX(-100px); }
+html.motion [data-reveal='right'] { transform: translateX(100px); }
+html.motion [data-reveal='zoom'] { transform: scale(0.96); }
+
+html.motion [data-reveal].is-in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (max-width: 768px) {
+  html.motion [data-reveal='up'] { transform: translateY(30px); }
+  html.motion [data-reveal='left'] { transform: translateX(-40px); }
+  html.motion [data-reveal='right'] { transform: translateX(40px); }
+  html.motion [data-reveal] { transition-delay: calc(var(--i, 0) * 50ms); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
